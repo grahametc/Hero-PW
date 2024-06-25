@@ -8,12 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-     (function(){
-      emailjs.init("6kDPXoinF2KUybINz")
-     })
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src = "email.js"></script>
 </head>
 <body>
@@ -34,17 +29,17 @@
     </div>
     
     <div class = "email">
-    <form id = "contact-form">
+    <form id = "contact-form" >
       <p>Name</p>
-      <input id = "name" type = "form" size = "30" name = "from_name">  
+      <input id = "name" type = "form" size = "30" name = "from_name" placeholder = "Name" value = "">  
       <p>Phone Number</p>
-      <input id = "name" type = "form" size = "30" name = "phone_number">  
+      <input id = "number" type = "form" size = "30" name = "phone_number" placeholder = "123-456-7890" value = "">  
       <p>Email</p>
-      <input id = "emladrs" type = "form" size = "30" name = "from_email">  
+      <input id = "emladrs" type = "form" size = "30" name = "from_email" placeholder = "email@domain.com" value = "">  
       <p>Message</p>
-      <input id = "msg" type = "form" size = "35" height = "50" name = "message">  
+      <input id = "msg" type = "form" rows="5" cols="80" name = "message" placeholder = "Message" value = "">  
       <br>
-      <button onclick = "sendEmail()" id = "sendBtn" type = "submit">Send</button>
+      <input type = "submit" value = "Send">
       </form>
     </div>
     <footer>

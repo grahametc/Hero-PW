@@ -72,4 +72,5 @@ nav ul li{
 }
 #msg{
     height: 80px;
+    text-align: start;
 }
