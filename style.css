@@ -1,4 +1,75 @@
-logo{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h1{
+    font-family: "Bangers", system-ui;
+    font-weight: 200;
+}
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+#logo{
+    left: 0px;
+    top:0px;
+    position:absolute;
+    width:160px;
+    height:100px;
+}
+.exampleimg{
+    top:80px;
     margin: 0 auto;
-    left:300px;
+    position:relative;
+    width:500px;
+    height:500px;
+    left:-10px;
+    top:20px;
+}
+#main{
+    height:500px;
+    width:800px;
+    left:200px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+}
+.about{
+    top: 50px;
+    left:1500px;
+    position: fixed;
+    font-family: "Bangers", system-ui;
+}
+.aboutme{
+    font-size: 100;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0%;
+}
+.email{
+    position:absolute;
+    top:200px;
+    left:80px;
+    font-family: "Bangers", system-ui;
+}
+#msg{
+    height: 80px;
 }
