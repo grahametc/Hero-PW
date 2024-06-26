@@ -19,11 +19,15 @@ console.log(document.getElementById('contact-form'));
         emailjs.sendForm(serviceID, templateID, this, 'ShlvlNLDnKUCJtNIN')
             .then(() => {
                 console.log('SUCCESS!');
-                alert("Email sent successfully.")
+                alert("Email sent successfully.");
+               document.getElementById('contact-form').reset(); 
             }, (error) => {
                 console.log('FAILED...', error);
-                alert("Email failed to send. Please try again.")
+                alert("Email failed to send. Please try again.");
+                document.getElementById('contact-form').reset();
             });
     });
+
+    
 }
 

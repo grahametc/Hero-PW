@@ -1,0 +1,33 @@
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+}
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1{
+    font-family: "Bangers", system-ui;
+    font-weight: 200;
+}
+#logo{
+    left: 0px;
+    top:0px;
+    position:absolute;
+    width:160px;
+    height:100px;
+}
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
