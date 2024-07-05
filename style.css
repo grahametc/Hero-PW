@@ -121,18 +121,51 @@ nav ul li {
     width: 60px;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-  
+/* Media Queries for Phone Screens */
+@media (max-width: 480px) {
+    header {
+        padding: 5px 0;
+    }
+
+    h1 {
+        font-size: 4vh;
+    }
+
+    #logo {
+        width: 15vw;
+        height: 15vh;
+    }
+
+    #main {
+        height: 30vh;
+        width: 90vw;
+        left: 5vw;
+    }
 
     .about, .equipment {
-        left: 50vw;
+        font-size: 2vh;
+        left: 50%;
         transform: translateX(-50%);
     }
 
-    .emailbg {
-        width: 50%;
-        left: 10%;
+    .email {
+        top: 45vh;
+        left: 5vw;
     }
 
+    .emailbg {
+        width: 90vw;
+        left: 5vw;
+        top: 45vh;
+    }
+
+    #msg {
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .textunderimg {
+        top: 80vh;
+        font-size: 3vh;
+    }
 }

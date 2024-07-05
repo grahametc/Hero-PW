@@ -84,3 +84,58 @@ nav ul li {
     text-align: center;
     top:50vh;
 }
+/* Media Queries for Phone Screens */
+@media (max-width: 480px) {
+    header {
+        padding: 5px 0;
+    }
+
+    h1 {
+        font-size: 4vh;
+    }
+
+    #logo {
+        width: 15vw;
+        height: 15vh;
+    }
+
+    #main {
+        height: 30vh;
+        width: 90vw;
+        left: 5vw;
+    }
+
+    .about, .equipment {
+        font-size: 2vh;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 10vh;
+        display: inline-block;
+        margin: 0 5vw;
+        position: relative;
+    }
+
+    .about {
+        margin-left: 0;
+    }
+
+    .equipment {
+        margin-right: 0;
+    }
+
+    #aboutme, #equip {
+        font-size: 2vh;
+    }
+
+    footer {
+        font-size: 2vh;
+    }
+
+    .maintxt {
+        font-size: 3vh;
+        top: 60vh;
+        width: 90vw;
+        left: 5vw;
+        position: absolute;
+    }
+}

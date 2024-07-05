@@ -28,6 +28,5 @@ console.log(document.getElementById('contact-form'));
             });
     });
 
-    
+  
 }
-
