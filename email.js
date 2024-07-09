@@ -16,6 +16,15 @@ console.log(document.getElementById('contact-form'));
         console.log(this);
         event.preventDefault();
         // these IDs from the previous steps
+        const name = document.getElementById('name').value.trim();
+        const phone = document.getElementById('number').value.trim();
+        const email = document.getElementById('emladrs').value.trim();
+        const message = document.getElementById('msg').value.trim();
+
+        if (!name && !phone && !email && !message) {
+            alert("Please fill out at least one field before submitting.");
+            return;
+        }
         emailjs.sendForm(serviceID, templateID, this, 'ShlvlNLDnKUCJtNIN')
             .then(() => {
                 console.log('SUCCESS!');
