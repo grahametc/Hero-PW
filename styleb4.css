@@ -192,5 +192,20 @@ nav ul li {
         text-wrap: nowrap;
         transform: translateX(-50%);
     } 
+     /* Adjusting image sizes for phone screens */
+     #walkwayb4, #walkwayafter, 
+     #drivewayb4, #drivewayafter, 
+     #drivewayb42, #drivewayafter2, 
+     #drivewayafter3, #drivewayafter4 {
+         height: 40vh; /* Smaller height */
+         width: 40vw;  /* Adjusting width */
+     }
+ 
+     .row1pics, .row2pics, .row3pics, .row4pics {
+         position: relative; /* Use relative to prevent overflow on smaller screens */
+         top: 10vh; /* Remove large top margins */
+         left: 10vw; /* Center the images */
+         margin-bottom: 20px; /* Add space between image rows */
+     }
 
 }
