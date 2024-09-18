@@ -79,11 +79,19 @@ nav ul li {
     list-style-type: none;
     padding: 0%;
 }
-
+.beforeandafter{
+    top: 5vh;
+    left: 27vw;
+    position: absolute;
+    font-family: "Bangers", system-ui;
+    color:white;
+    
+}
 .maintxt{
     text-align: center;
     top:50vh;
 }
+
 /* Media Queries for Phone Screens */
 @media (max-width: 480px) {
     header {

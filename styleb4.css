@@ -70,10 +70,6 @@ footer {
     position: absolute;
     font-family: "Bangers", system-ui;
 }
-
-#equip {
-    color: white;
-}
 .beforeandafter{
     top: 5vh;
     left: 27vw;
@@ -82,14 +78,70 @@ footer {
     color:white;
     
 }
+
+#equip {
+    color: white;
+}
+
 nav ul li {
     list-style-type: none;
     padding: 0%;
 }
 
-.maintxt{
-    text-align: center;
+#walkwayb4{
+    height: 75vh;
+    width: 75vh;
 }
+#walkwayafter{
+    height: 75vh;
+    width: 75vh;
+}
+.row1pics{
+    top:13vh;
+    left:25vh;
+    position: absolute;
+}
+#drivewayb4{
+    height: 75vh;
+    width: 75vh;
+}
+#drivewayafter{
+    height: 75vh;
+    width: 75vh;
+}
+.row2pics{
+    top:89vh;
+    left:25vh;
+    position: absolute;
+}
+#drivewayb42{
+    height: 75vh;
+    width: 75vh;
+}
+#drivewayafter2{
+    height: 75vh;
+    width: 75vh;
+}
+.row3pics{
+    top:165vh;
+    left:25vh;
+    position: absolute;
+}
+#drivewayafter3{
+    height: 75vh;
+    width: 75vh;
+}
+#drivewayafter4{
+    height: 75vh;
+    width: 75vh;
+}
+
+.row4pics{
+    top:241vh;
+    left:25vh;
+    position: absolute;
+}
+
 /* Media Queries for Phone Screens */
 @media (max-width: 480px) {
     header {
@@ -110,7 +162,6 @@ nav ul li {
     #logo {
         width: 24vw;
         height: 8vh;
-        z-index:2;
     }
 
     #main {
@@ -131,17 +182,15 @@ nav ul li {
         top: 0vh;
         transform: translateX(-50%);
     } 
-
     footer {
         font-size: 2vh;
     }
+    .beforeandafter {
+        font-size: 1.9vh;
+        left: 33vh;
+        top: 5vh;
+        text-wrap: nowrap;
+        transform: translateX(-50%);
+    } 
 
-    .maintxt {
-        font-size: 3vh;
-        top:10vh;
-        font-size:30vh;
-        width: 40vh;
-        position: absolute;
-        left:-3vh;
-    }
 }

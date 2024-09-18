@@ -71,6 +71,15 @@ footer {
     font-family: "Bangers", system-ui;
 }
 
+.beforeandafter{
+    top: 5vh;
+    left: 27vw;
+    position: absolute;
+    font-family: "Bangers", system-ui;
+    color:white;
+    
+}
+
 #equip {
     color: white;
 }
@@ -157,6 +166,13 @@ nav ul li {
         font-size: 2vh;
         left: 40vh;
         top: 0vh;
+        transform: translateX(-50%);
+    } 
+    .beforeandafter {
+        font-size: 1.9vh;
+        left: 33vh;
+        top: 5vh;
+        text-wrap: nowrap;
         transform: translateX(-50%);
     } 
 
