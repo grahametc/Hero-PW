@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Bangers", system-ui;
+    font-weight: 200;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+}
+
+
+#main {
+    height: 50vh;
+    width: 50vw;
+    left: 32vw;
+    top:1vh;
+    position: relative;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+}
+
+.about {
+    top: 5vh;
+    left: 75vw;
+    position: absolute;
+    font-family: "Bangers", system-ui;
+}
+
+#aboutme {
+    font-size: 2vh;
+    color: white;
+}
+
+.equipment {
+    top: 5vh;
+    left: 65vw;
+    position: absolute;
+    font-family: "Bangers", system-ui;
+}
+.beforeandafter{
+    top: 5vh;
+    left: 27vw;
+    position: absolute;
+    font-family: "Bangers", system-ui;
+    color:white;
+    
+}
+
+#equip {
+    color: white;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0%;
+}
+
+#walkwayb4{
+    height: 75vh;
+    width: 75vh;
+}
+#walkwayafter{
+    height: 75vh;
+    width: 75vh;
+}
+.row1pics{
+    top:13vh;
+    left:25vh;
+    position: absolute;
+}
+#drivewayb4{
+    height: 75vh;
+    width: 75vh;
+}
+#drivewayafter{
+    height: 75vh;
+    width: 75vh;
+}
+.row2pics{
+    top:89vh;
+    left:25vh;
+    position: absolute;
+}
+#drivewayb42{
+    height: 75vh;
+    width: 75vh;
+}
+#drivewayafter2{
+    height: 75vh;
+    width: 75vh;
+}
+.row3pics{
+    top:165vh;
+    left:25vh;
+    position: absolute;
+}
+#drivewayafter3{
+    height: 75vh;
+    width: 75vh;
+}
+#drivewayafter4{
+    height: 75vh;
+    width: 75vh;
+}
+
+.row4pics{
+    top:241vh;
+    left:25vh;
+    position: absolute;
+}
+
+/* Media Queries for Phone Screens */
+@media (max-width: 480px) {
+    header {
+        padding: 5px 0;
+        position: absolute;
+        background-color: dodgerblue;
+        z-index: -1;
+        text-align:center;
+        height:8vh;
+    }
+
+    h1 {
+        font-size: 2vh;
+        position: absolute;
+        left: 12vh;
+    }
+
+    #logo {
+        width: 24vw;
+        height: 8vh;
+    }
+
+    #main {
+        height: 30vh;
+        width: 90vw;
+        left: 5vw;
+    }
+
+    .about {
+        font-size: 0.5vh;
+        left: 32vh;
+        top: 2vh;
+        transform: translateX(-50%);
+    }
+    .equipment {
+        font-size: 2vh;
+        left: 40vh;
+        top: 0vh;
+        transform: translateX(-50%);
+    } 
+    footer {
+        font-size: 2vh;
+    }
+    .beforeandafter {
+        font-size: 1.9vh;
+        left: 33vh;
+        top: 5vh;
+        text-wrap: nowrap;
+        transform: translateX(-50%);
+    } 
+     /* Adjusting image sizes for phone screens */
+     #walkwayb4, #walkwayafter, 
+     #drivewayb4, #drivewayafter, 
+     #drivewayb42, #drivewayafter2, 
+     #drivewayafter3, #drivewayafter4 {
+         height: 40vh; /* Smaller height */
+         width: 40vw;  /* Adjusting width */
+     }
+ 
+     .row1pics, .row2pics, .row3pics, .row4pics {
+         position: relative; /* Use relative to prevent overflow on smaller screens */
+         top: 10vh; /* Remove large top margins */
+         left: 10vw; /* Center the images */
+         margin-bottom: 20px; /* Add space between image rows */
+     }
+
+}
